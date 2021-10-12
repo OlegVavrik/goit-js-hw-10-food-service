@@ -1,0 +1,34 @@
+{
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-10-food-service/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegVavrik/goit-js-hw-10-food-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlegVavrik/goit-js-hw-10-food-service/issues"
+  },
+  "homepage": "https://OlegVavrik.github.io/goit-js-hw-10-food-service",
+  "devDependencies": {
+    "i": "^0.3.7",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "handlebars": "^4.7.7",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.2",
+    "sass": "^1.42.1"
+  }
+}
